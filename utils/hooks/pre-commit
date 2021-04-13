@@ -1,0 +1,4 @@
+#!/bin/bash
+
+. venv/Scripts/activate
+pip freeze > requirements.tx
