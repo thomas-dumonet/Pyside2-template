@@ -1,5 +1,6 @@
 @ECHO OFF
 Echo Cleaning PyInstaller Build folders
+cd /D "%~dp0"
 rmdir /s /q "..\\build"
 rmdir /s /q "..\\output"
 rmdir /s /q "..\\dist"
